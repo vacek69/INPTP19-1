@@ -64,7 +64,10 @@ namespace INPTPZ1
                         s += "x";
                     }
                 }
-                s += " + ";
+                if (i < Coeficients.Count - 1)
+                {
+                    s += " + ";
+                }
             }
             return s;
         }
